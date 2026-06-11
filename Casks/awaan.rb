@@ -16,6 +16,12 @@ cask "awaan" do
 
   app "Awaan.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Awaan.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/com.digitalsanctuary.awaan",
     "~/Library/Preferences/com.digitalsanctuary.awaan.plist",
