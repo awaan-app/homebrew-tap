@@ -1,6 +1,6 @@
 cask "awaan" do
   version "0.2.0"
-  sha256 "15db531ed145aa830dd115a71d74838856877bcad0f8a87bf15495672a02e9ba"
+  sha256 "aca8689f83b4491b437640030779df4b976ceffd0cfbf00e73524f37b6894d76"
 
   url "https://7r9tr1bhb9tyyxrv.public.blob.vercel-storage.com/Awaan_0.2.0_aarch64.zip"
   name "Awaan"
