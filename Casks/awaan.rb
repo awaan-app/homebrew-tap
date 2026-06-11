@@ -2,7 +2,7 @@ cask "awaan" do
   version "0.2.0"
   sha256 "15db531ed145aa830dd115a71d74838856877bcad0f8a87bf15495672a02e9ba"
 
-  url "https://7r9tr1bhb9tyyxrv.public.blob.vercel-storage.com/Awaan_0.2.0_aarch64.dmg"
+  url "https://7r9tr1bhb9tyyxrv.public.blob.vercel-storage.com/Awaan_0.2.0_aarch64.zip"
   name "Awaan"
   desc "Privacy-first Islamic prayer times app for your desktop"
   homepage "https://app.awaan.cloud"
